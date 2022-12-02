@@ -5,9 +5,9 @@ Last update: 2022/12/02<br>
 # FreeDS-compilation
 Compilation process for FreeDS<br>
 <br>
-This works for me:
+This works for me:<br>
 <br>
-Development system installation for Windows:
+Development system installation for Windows:<br>
 <br>
 install VSCodium (optional, you can use any editor, https://github.com/VSCodium/vscodium/releases)<br>
 install Python (https://www.python.org/downloads/release/python-3110/)<br>
@@ -17,6 +17,7 @@ download source code: git clone https://github.com/pablozg/freeds.git<br>
 add to PATH %USERPROFILE%.platformio\penv\Scripts using the editor of environment variables<br>
 compilation: enter into freeds directory using CMD and run "pio run"<br>
 generate the file system: enter into freeds directory and run "pio run --target buildfs"<br>
+<br>
 Tested on Debian GNU/Linux 11.5 amd64:<br>
 $ sudo apt install python<br>
 <br>
