@@ -5,8 +5,9 @@ Last update: 2022/12/02<br>
 # FreeDS-compilation
 Compilation process for FreeDS<br>
 <br>
-This works for me:<br>
+These procedures worked when this manual was written:<br>
 <br>
+<b>Procedure for Windows</b><br>
 Development system installation for Windows:<br>
 <br>
 install VSCodium (optional, you can use any editor, https://github.com/VSCodium/vscodium/releases)<br>
@@ -18,6 +19,7 @@ add to PATH %USERPROFILE%.platformio\penv\Scripts using the editor of environmen
 compilation: enter into freeds directory using CMD and run "pio run"<br>
 generate the file system: enter into freeds directory and run "pio run --target buildfs"<br>
 <br>
+<b>Procedure for GNU/Linux</b><br>
 Tested on Debian GNU/Linux 11.5 amd64:<br>
 $ sudo apt install python<br>
 <br>
